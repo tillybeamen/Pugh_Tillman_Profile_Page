@@ -131,7 +131,6 @@ button {
     display: flex;
     font-size: xx-large;
     margin-left: 20px;
-
 }
 
 /* EDUCATION SECTION */
@@ -184,10 +183,10 @@ button {
 }
 
 /* BOTTOM-RIGHT-CONTAINER */
-.bottom-right-container {
-    height: inherit;
-    width: inherit;
-}
+/* .bottom-right-container {
+    height: 575px;
+    width: 310px;
+} */
 
 
 /* CONNECTION REQUSTS */
@@ -195,7 +194,7 @@ button {
     border: 5px solid rgb(215, 215, 215);
     height: 200px;
     width: 300px;
-    margin: 20px;
+    margin: 19px;
 
 }
 
@@ -218,24 +217,19 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 
 .accept {
     height: 30px;
-    width: 30px;
-    margin: 5px;
 }
 
 .close-circle {
     height: 30px;
-    width: 30px;
-    margin: 5px
 }
 
 .small-user-icon {
     height: 30px;
-    width: 30px;
+    
     margin: 5px
 }
 
@@ -243,9 +237,9 @@ button {
 /* YOUR CONNECTIONS */
 .your-connections {
     border: 5px solid rgb(215, 215, 215);
-    margin: 20px;
+    margin: 19px;
     height: 305px;
-    width: 300px;
+    
 }
 
 .your-connections-title {
@@ -279,14 +273,14 @@ button {
     display: flex;
     align-items: center;
     margin-top:10px;
+    
 }
 
 .view-more {
     display: flex;
     border: 5px solid rgb(215, 215, 215);
     height: 50px;
-    width: 300px;
-    margin-top: 36px;
+    margin: 19px;
     align-items: center;
     
 }

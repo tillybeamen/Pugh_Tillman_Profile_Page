@@ -32,11 +32,11 @@
                 <div class="background"></div>
                 <div class="position-user-card">
                     <img src="./icons/user-circle.png" alt="user circle" id="circle">
-                    <p class="jane">Jane Doe</p>
+                    <p id="jane">Jane Doe</p>
                     <p class="seattle"><img src="./icons/map-marker.png" alt="map marker" id="marker">Seattle</p>
                     <p class="develop">Developer | Engineer | Problem Solver</p>
                     <p class="develop">Master of shadows and the Internet!</p>
-                    <p class="profile"><img src="./icons/gear.png" alt="gear" id="gear">edit profile</p>
+                    <a href="#" class="profile" onclick="changeName()"><img src="./icons/gear.png" alt="gear" id="gear">edit profile</a>
                 </div>
             </div>
             <!-- EDUCATION SECTION -->
@@ -56,26 +56,28 @@
             <!-- connections requests -->
             <div class="connections-requests">
                 <div class="connections-title">
-                    <img src="./icons/accept-circle.png" alt="accept circle" class="accept">
+                    <p id="requests-number">2</p>
+                    <!-- <img src="./icons/accept-circle.png" alt="accept circle" class="accept"> -->
                     <p class="connection-requests">Connection Requests</p>
                 </div>
                     <div class="friend-requests-todd">
-                        <img src="./icons/user-circle.png" alt="user icon" class="small-user-icon">
-                        <p>Todd E</p>
-                        <img src="./icons/accept-circle.png" alt="accept icon" class="accept">
-                        <img src="./icons/close-circle.png" alt="close circle icon" class="close-circle">
+                        <img id="bye-todd" src="./icons/user-circle.png" alt="user icon" class="small-user-icon">
+                        <p id="bye-todd2">Todd E</p>
+                        <img onclick="handleClickEvent1()" src="./icons/accept-circle.png" alt="accept icon" class="accept">
+                        <img onclick="handleClickEvent1()" src="./icons/close-circle.png" alt="close circle icon" class="close-circle">
                     </div>
                     <div class="friend-requests-phil">
-                        <img src="./icons/user-circle.png" alt="small-user-icon" class="small-user-icon">
-                        <p>Phil K</p>
-                        <img src="./icons/accept-circle.png" alt="accept icon" class="accept">
-                        <img src="./icons/close-circle.png" alt="close circle icon" class="close-circle">
+                        <img id="bye-phil" src="./icons/user-circle.png" alt="small-user-icon" class="small-user-icon">
+                        <p id="bye-phil2">Phil K</p>
+                        <img  onclick="handleClickEvent2()" src="./icons/accept-circle.png" alt="accept icon" class="accept">
+                        <img  onclick="handleClickEvent2()" src="./icons/close-circle.png" alt="close circle icon" class="close-circle">
                     </div>
             </div>
             <!-- your connections -->
             <div class="your-connections">
                 <div class="your-connections-title">
-                    <img src="./icons/accept-circle.png" alt="accept circle" class="accept">
+                    <p id="connections-number">483</p>
+                    <!-- <img src="./icons/accept-circle.png" alt="accept circle" class="accept"> -->
                     <p>Your Connections</p>
                 </div>
                 <div class="connections1">
@@ -101,5 +103,7 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
